@@ -4,6 +4,7 @@ azul = #22BCE0
 tamanoLetra = 16px
 naranja = #DD4F24
 azulMensaje= #E0F8F7
+amarilloMensaje = #F7F8E0
 
 body
 	background grisFondo
@@ -13,7 +14,9 @@ body
 	footer
 		background naranja
 		color white
-		text-align center		
+		text-align center
+		padding 0.8em  0
+		margin-top: 3em
 		
 		h3
 			font-size 14px
@@ -82,18 +85,16 @@ body
 						
 			img
 				border-radius 60%
-				width 50px
-				position absolute
-				left 150px	
-				top 250px	
-		.me_textarea			
-			left 20px
-			position absolute
-			top 10px			
-			
+				width 50px					
+		.me_textarea_envia			
 			textarea
 				background-color azulMensaje
 				border-radius 25px
+				overflow auto
+		.me_textarea_recibe						
+			textarea
+				background-color amarilloMensaje
+				border-radius 25px			
 		.me_fecha
 			left 360px
 			position absolute
@@ -103,32 +104,19 @@ body
 			top 70px
 			font-size 10px
 			text-align left
-		.mensaje_recibe			
-			width 500px
-			height 120px			
-			position absolute
-			left 300px
-			top 350px
-			.nombre_recibe
-				position absolute
-				
-		.section-avatar2
-						
+		.section-avatar2						
 			img
 				border-radius 60%
-				left 760px
-				position absolute	
-				top 350px
-				width 50px
-		.escribe_mesanje
-			position absolute
-			top 470px
+				width 50px				
+		.escribe_mesanje			
 			left 220px
-			width 1500px		
+			width 1500px	
+		.div_recibe
+			position relative
+			left 200px
+			
+				
 			
 			
 			
 	    
-		    
-
-	
